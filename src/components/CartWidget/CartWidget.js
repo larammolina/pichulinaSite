@@ -1,8 +1,9 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 const CartWidget = () => {
     return (
-        <div>
-            <i class="fa-solid fa-cart-shopping"></i>
-        </div>
+        <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
     )
 }
 
