@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         <NavBar />
         <ItemListContainer />
       </header>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
