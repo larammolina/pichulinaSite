@@ -7,9 +7,9 @@ const NavBar = () => {
         <nav>
             <h1>Pichulina Bakery y Café</h1>
             <ul>
-                <li>Inicio</li>
-                <li>Tienda</li>
-                <li>Contacto</li>
+                <li><a>Inicio</a></li>
+                <li><a>Tienda</a></li>
+                <li><a>Contacto</a></li>
             </ul>
             <CartWidget />
         </nav>
