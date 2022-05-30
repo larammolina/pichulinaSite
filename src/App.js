@@ -8,13 +8,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar class="nav"/>
-        <ItemListContainer />
+        <ItemListContainer greeting="Bienvenido"/>
       </header>
       <footer>
         <Footer />
       </footer>
     </div>
-  );
+  )
 }
 
 export default App;
