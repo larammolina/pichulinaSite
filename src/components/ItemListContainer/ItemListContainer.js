@@ -1,5 +1,13 @@
-const ItemListContainer = (props) => {
-    return <h1>{props.greeting}</h1>
+
+import ItemCount from '../ItemCount/ItemCount';
+
+const ItemListContainer = (greeting) => {
+    return (
+        <div>
+            <h1>{greeting}</h1>
+            <ItemCount />
+        </div>
+    )
 }
 
 export default ItemListContainer;
