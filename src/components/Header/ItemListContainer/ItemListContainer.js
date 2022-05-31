@@ -1,5 +1,6 @@
 
-import ItemCount from '../ItemCount/ItemCount';
+import ItemCount from '../../ItemCount/ItemCount';
+
 
 const ItemListContainer = (props) => {
     return (

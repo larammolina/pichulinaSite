@@ -4,7 +4,7 @@
 const CartWidget = () => {
     return (
         //<FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
-        <img src='/images/cart.jpg' alt='cart-widget'/>
+        <img src='/images/cart.svg' alt='cart-widget'/>
     )
 }
 

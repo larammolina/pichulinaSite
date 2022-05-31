@@ -1,18 +1,12 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <NavBar class="nav"/>
-        <ItemListContainer greeting="Bienvenido"/>
-      </header>
-      <footer>
-        <Footer />
-      </footer>
+      <Header />
+      <Footer />
     </div>
   )
 }
