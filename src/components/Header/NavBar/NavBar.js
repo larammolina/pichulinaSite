@@ -1,16 +1,15 @@
 
 import './NavBar.css'
 import CartWidget from '../../CartWidget/CartWidget'
+import {Link} from 'react-router-dom';
+
 
 const NavBar = () => {
     return (
         <nav>
-            <h1>Pichulina Bakery y Café</h1>
-            <ul>
-                <li><a>Inicio</a></li>
-                <li><a>Tienda</a></li>
-                <li><a>Contacto</a></li>
-            </ul>
+            <Link to='/' >Inicio</Link>
+            <Link to='/tienda' >Tienda</Link>
+            <Link to='/contacto' >Contacto</Link>
             <CartWidget />
         </nav>
     )
