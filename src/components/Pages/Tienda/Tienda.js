@@ -1,3 +1,4 @@
+import ItemListContainer from "../../ItemListContainer/ItemListContainer";
 
 const Tienda = () => {
 
@@ -7,6 +8,7 @@ const Tienda = () => {
     return (
        <>
             <p className=''>{text}</p>
+            <ItemListContainer greeting="Bienvenido"/>
        </>
     )
 }
